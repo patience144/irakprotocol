@@ -1,0 +1,161 @@
+* {
+  background-color: lightgrey;
+  color: black;
+}
+
+hr {
+  height: 3px;
+}
+
+/* * .bodyimg {
+  display: flex;
+  align-items: center;
+  height: 600px;
+} */
+
+img {
+  height: 80px;
+}
+
+.centered {
+  position: absolute;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 200px;
+}
+
+.loginHeader {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: transparent;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.emailLabel {
+  padding-right: 24px;
+  background-color: transparent;
+}
+
+.email {
+  padding-bottom: 25px;
+  background-color: transparent;
+}
+
+.password {
+  padding-bottom: 15px;
+  background-color: transparent;
+}
+
+label.passwordLabel {
+  background-color: transparent;
+}
+
+.loginButton {
+  margin-top: 15px;
+  width: 60px;
+}
+
+.navbar {
+  display: flex;
+}
+
+@media screen and (max-width: 736px) and (orientation: portrait) {
+  .centered {
+    padding-top: 10px;
+  }
+}
+
+.logout {
+  display: flex;
+  flex-direction: end;
+}
+
+a {
+  background-color: transparent;
+}
+
+.tabContainer {
+  width: 100%;
+  height: 450px;
+  /* border: solid; */
+  margin-top: 6em;
+}
+
+.buttonContainer {
+  height: 15%;
+}
+
+.buttonContainer button {
+  width: 25%;
+  height: 100%;
+  float: left;
+  /* outline: none; */
+  cursor: pointer;
+  font-family: "Sans-serif";
+  background-color: grey;
+}
+
+.buttonContainer button:hover {
+  background-color: #e6edf2;
+}
+
+.tabContainer .tabPanel {
+  height: 85%;
+  background-color: grey;
+  text-align: center;
+  padding-top: 0px;
+  box-sizing: border-box;
+  font-family: "Sans-serif";
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #ebf1f5;
+  width: 400px;
+  padding-left: 35%;
+}
+
+form label {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.nmh1 {
+  background-color: transparent;
+  margin: 0;
+}
+
+.tabPanel {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 682px) and (orientation: landscape) {
+  form {
+    padding-left: 0%;
+  }
+}
+
+/* @media screen and (max-width: 736px) and (orientation: landscape) {
+  form {
+    padding: 10%;
+  }
+} */

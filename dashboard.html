@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='index.css' rel="" type="text/html">
+        <link href='style.css' rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav class='navbar'>
+            <img src='img/SHIELD.png' alt='solidmagan image' />
+            <h2>I-RAK PROTOCAL</h2>
+            <ul>
+                <!-- <li class='logout'>Log Out</li> -->
+            </ul>
+        </nav>
+
+        <hr/>
+
+        <div class='tabContainer'>
+            <div class='buttonContainer'>
+                <button onclick='showPanel(0,"#ebf1f5")'>Members</button>
+                <button onclick='showPanel(1,"#ebf1f5")'>Departments</button>
+                <button onclick='showPanel(2,"#ebf1f5")'>Forms</button>
+                <button onclick='showPanel(3,"#ebf1f5")'>New Member</button>
+            </div>
+            <div class='tabPanel'>Tab 1: Content</div>
+            <div class='tabPanel'>Tab 2: Content</div>
+            <div class='tabPanel'>Tab 3: Content</div>
+            <div class='tabPanel'>
+                
+                <form class='nmform'>
+                    <h1 class='nmh1'>New Member Form</h1>
+                    <label>Govenment Name - First Name</label>
+                    <input type='text'></input>
+                    <label>Govenment Name - Last Name</label>
+                    <input type='text'></input>
+                    <label>Hebrew Name</label>
+                    <input type='text'></input>
+                    <label>Address</label>
+                    <input type='text'></input>
+                    <input type='text'></input>
+                    <input type='number'></input>
+                    <input type='text'></input>
+                    <label>Rank</label>
+                    <input type='text'></input>
+                </form>
+            </div>
+        </div>
+
+    <script src='main.js'></script>
+    </body>
+</html>
