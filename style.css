@@ -123,6 +123,30 @@ a {
   display: none;
 }
 
+.tables {
+  border: solid;
+  width: 100%;
+}
+
+.tables,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* td:nth-child(even) {
+  background: #ececec;
+} */
+
+table tr:nth-child(odd) td {
+  background: #bbb;
+}
+
+th {
+  background-color: #b2b4b3;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -155,7 +179,7 @@ form label {
 }
 
 /* @media screen and (max-width: 736px) and (orientation: landscape) {
-  form {
-    padding: 10%;
+  button {
+    
   }
 } */
